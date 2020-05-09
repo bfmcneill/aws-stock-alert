@@ -1,0 +1,4 @@
+boto3==1.13.6 # https://pypi.org/project/boto3/
+python-dotenv==0.13.0 # https://pypi.org/project/python-dotenv/
+pylint==2.5.2 # https://pypi.org/project/pylint/
+black==19.10b0 # https://pypi.org/project/black/
