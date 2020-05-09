@@ -17,7 +17,6 @@ sns_client = boto3.client(
 tiingo_client = TiingoClient()
 ticker_price = tiingo_client.get_ticker_price("DIA", frequency="1Min")[-1]
 
-
 topic_arn = sns_client.list_topics().get("Topics")[0].get("TopicArn")
 
 message = "DIA closing price {} @ {}".format(
